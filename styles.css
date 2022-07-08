@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightSideTop{
+    width: 90%;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.form{
+    padding-top: 50px;
+}
+
+.leftSide{
+    display: none;
+}
+
+.reg1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.reg2{
+    width: 90%;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+form{
+    padding-top: 10px;
+}
+
+.name__lastname, .email__password{
+    display: flex;
+    flex-direction: column;
+}
+
+.name__lastname input, .email__password input, .button__form button{
+    width: 100%;
+    padding: 17px 10px 17px 10px;
+    margin-top: 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #919eab57;
+    color: #919eab;
+}
+
+.button__form button{
+    background-color: royalblue;
+    color: white;
+    font-weight: bold
+}
+
+.last_text{
+    padding-top: 25px;
+}
+
+.last_text{
+    font-size: 14px;
+    text-align: center;
+    color: #919eab;
+}
+
+a, b{
+    color: blue;
+}
+
+.rightSideBottom{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+@media (min-width: 1000px){
+    
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    display: none;
+}
+
+.leftSide{
+    display: block;
+    height: 100vh;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.leftSide_in{
+    width: 95%;
+    height: 98%;
+    margin: auto;
+    box-shadow: 0px 16px 32px -4px rgba(145, 158, 171, 0.345);
+    border-radius: 16px;
+}
+
+.logo2{
+    padding: 40px 0px 0px 40px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo2 p{
+    padding-left: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.leftSide_in{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftSide_in .pics{
+    margin: auto;
+}
+
+.rightSide{
+    width: 75%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.rightSideBottom{
+    height: 32%;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    margin: auto;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.rightSideTop{
+    height: 68%;
+    width: 50%;
+    padding-top: 0px;
+}
+
+.name__lastname{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name__lastname input{
+    width: 49%;
+}
+
+.form{
+    padding-top: 0px;
+}
+
+}
